@@ -59,6 +59,10 @@
       "name": "hello-world",
       "displayName": "Hello World",
       "description": "Minimal AI app Kit that exposes a single MCP tool returning hello world.",
+      "whatItDoes": [
+        "Starts one Bun workload with an MCP endpoint.",
+        "Provides a tiny tool that is useful for validating CapaKit installation and skill wiring."
+      ],
       "repo": "https://github.com/capakit/hello-world-demo-kit",
       "directory": "hello-world-demo-kit",
       "screenshot": null,
@@ -82,6 +86,11 @@
       "name": "kids-storybook-creator",
       "displayName": "Kids Storybook Creator",
       "description": "Local-first AI app Kit for generating and editing a simple illustrated children's storybook.",
+      "whatItDoes": [
+        "Turns a story idea into a 10-page story arc.",
+        "Uses a local language model for story text and a local image model for page art.",
+        "Serves a browser UI for editing pages and printing the final storybook."
+      ],
       "repo": "https://github.com/capakit/kids-storybook-creator-demo-kit",
       "directory": "kids-storybook-creator-demo-kit",
       "screenshot": "assets/screenshots/kids-storybook-creator-demo-kit/screenshot.png",
@@ -114,6 +123,11 @@
       "name": "llama-cpp-local",
       "displayName": "llama.cpp Local",
       "description": "Local AI app Kit that serves GGUF models through llama.cpp with OpenAI-compatible and MCP endpoints.",
+      "whatItDoes": [
+        "Downloads and runs a llama.cpp release on demand.",
+        "Loads a local path or Hugging Face GGUF model spec.",
+        "Exposes OpenAI-compatible chat and an MCP tool for local model prompts."
+      ],
       "repo": "https://github.com/capakit/llama-cpp-local-kit",
       "directory": "llama-cpp-local-kit",
       "screenshot": null,
@@ -143,6 +157,11 @@
       "name": "local-image-tagger",
       "displayName": "Local Image Tagger",
       "description": "Local AI app Kit for tagging images from a mounted folder with a local vision model.",
+      "whatItDoes": [
+        "Lists images from a read-only local folder.",
+        "Tags selected images with a bundled local vision model dependency.",
+        "Exposes both a browser UI and an MCP image-tagging tool."
+      ],
       "repo": "https://github.com/capakit/local-image-tagger-demo-kit",
       "directory": "local-image-tagger-demo-kit",
       "screenshot": "assets/screenshots/local-image-tagger-demo-kit/screenshot.png",
@@ -176,6 +195,11 @@
       "name": "stable-diffusion-local",
       "displayName": "Stable Diffusion Local",
       "description": "Local AI app Kit that serves stable-diffusion.cpp through an OpenAI-compatible image endpoint.",
+      "whatItDoes": [
+        "Downloads and runs stable-diffusion.cpp on demand.",
+        "Loads a local path or Hugging Face diffusion model spec.",
+        "Exposes an OpenAI-compatible image-generation API for other Kits."
+      ],
       "repo": "https://github.com/capakit/stable-diffusion-local-kit",
       "directory": "stable-diffusion-local-kit",
       "screenshot": null,
@@ -203,6 +227,12 @@
       "name": "realtime-voice",
       "displayName": "Realtime Voice",
       "description": "Local-first AI app Kit for a browser voice conversation loop with speech recognition, local chat, and speech output.",
+      "whatItDoes": [
+        "Streams microphone audio from the browser to a CapaKit workload.",
+        "Transcribes speech with a local Whisper model.",
+        "Generates assistant replies through a bundled local llama.cpp dependency.",
+        "Speaks replies with a local Kokoro TTS model."
+      ],
       "repo": "https://github.com/capakit/realtime-voice-demo-kit",
       "directory": "realtime-voice-demo-kit",
       "screenshot": "assets/screenshots/realtime-voice-demo-kit/screenshot.png",
