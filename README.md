@@ -87,7 +87,7 @@ capakit run https://github.com/capakit/local-image-tagger-demo-kit --global-skil
 
 Local-first AI app Kit for a browser voice conversation loop with speech recognition, local chat, and speech output.
 
-`web-ui` `voice` `audio` `speech-to-text` `text-to-speech` `llama.cpp` `transformers.js` `whisper` `kokoro` `local-ai` `react` `vite` `typescript` `bun`
+`web-ui` `websocket` `voice` `audio` `speech-to-text` `text-to-speech` `llama.cpp` `transformers.js` `whisper` `kokoro` `local-ai` `react` `vite` `typescript` `bun`
 
 <details>
 <summary>Run and details</summary>
@@ -101,7 +101,7 @@ Local-first AI app Kit for a browser voice conversation loop with speech recogni
 - Generates assistant replies through a bundled local llama.cpp dependency.
 - Speaks replies with a local Kokoro TTS model.
 
-**Tags:** `web-ui` `voice` `audio` `speech-to-text` `text-to-speech` `llama.cpp` `transformers.js` `whisper` `kokoro` `local-ai` `react` `vite` `typescript` `bun`
+**Tags:** `web-ui` `websocket` `voice` `audio` `speech-to-text` `text-to-speech` `llama.cpp` `transformers.js` `whisper` `kokoro` `local-ai` `react` `vite` `typescript` `bun`
 
 **Run**
 
@@ -264,7 +264,7 @@ capakit run https://github.com/capakit/stable-diffusion-local-kit \
 - Generates assistant replies through a bundled local llama.cpp dependency.
 - Speaks replies with a local Kokoro TTS model.
 
-**Tags:** `web-ui` `voice` `audio` `speech-to-text` `text-to-speech` `llama.cpp` `transformers.js` `whisper` `kokoro` `local-ai` `react` `vite` `typescript` `bun`
+**Tags:** `web-ui` `websocket` `voice` `audio` `speech-to-text` `text-to-speech` `llama.cpp` `transformers.js` `whisper` `kokoro` `local-ai` `react` `vite` `typescript` `bun`
 
 **Run**
 

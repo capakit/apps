@@ -6,6 +6,7 @@
       "description": "How users and agents interact with the app.",
       "tags": [
         "web-ui",
+        "websocket",
         "mcp",
         "oaic"
       ]
@@ -249,6 +250,7 @@
       ],
       "tags": [
         "web-ui",
+        "websocket",
         "voice",
         "audio",
         "speech-to-text",

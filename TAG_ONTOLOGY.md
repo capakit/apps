@@ -7,6 +7,7 @@ Tags are user-facing filters for the public registry. They describe technologies
 How users and agents interact with the app.
 
 - `web-ui` (3)
+- `websocket` (1)
 - `mcp` (3)
 - `oaic` (2)
 
