@@ -5,7 +5,6 @@ Run local AI apps with one CapaKit command.
 This repository is the public registry for CapaKit AI app Kits. Each app is a standalone GitHub repository you can run, inspect, clone, or adapt. The registry is generated from kit-owned metadata, so the README stays human-friendly while `apps.json` stays machine-friendly.
 
 - Machine-readable registry: [apps.json](apps.json)
-- Tag vocabulary: [TAG_ONTOLOGY.md](TAG_ONTOLOGY.md)
 
 ## Featured Apps
 
@@ -277,7 +276,3 @@ capakit run https://github.com/capakit/realtime-voice-demo-kit \
 **Source:** [realtime-voice-demo-kit](https://github.com/capakit/realtime-voice-demo-kit)
 
 </details>
-
-## Browse By Tag
-
-`bun` 6 · `typescript` 6 · `local-ai` 5 · `llama.cpp` 4 · `mcp` 3 · `react` 3 · `vite` 3 · `web-ui` 3 · `image-generation` 2 · `oaic` 2 · `stable-diffusion` 2 · `audio` 1 · `gguf` 1 · `image-tagging` 1 · `kokoro` 1 · `speech-to-text` 1 · `starter` 1 · `text-to-speech` 1 · `transformers.js` 1 · `vision` 1 · `voice` 1 · `whisper` 1
