@@ -19,8 +19,8 @@
       ],
       "order": 10,
       "featured": false,
-      "runCommand": "capakit run 'git@github.com:capakit/hello-world-demo-kit.git'",
-      "skillInstallCommand": "capakit run 'git@github.com:capakit/hello-world-demo-kit.git' --global-skill codex"
+      "runCommand": "capakit run https://github.com/capakit/hello-world-demo-kit",
+      "skillInstallCommand": "capakit run https://github.com/capakit/hello-world-demo-kit --global-skill codex"
     },
     {
       "name": "kids-storybook-creator",
@@ -45,7 +45,7 @@
       ],
       "order": 20,
       "featured": true,
-      "runCommand": "capakit run 'git@github.com:capakit/kids-storybook-creator-demo-kit.git' \\\n--mount models=~/.capakit/models",
+      "runCommand": "capakit run https://github.com/capakit/kids-storybook-creator-demo-kit \\\n--mount models=~/.capakit/models",
       "skillInstallCommand": null
     },
     {
@@ -70,8 +70,8 @@
       ],
       "order": 30,
       "featured": false,
-      "runCommand": "capakit run 'git@github.com:capakit/llama-cpp-local-kit.git' \\\n--mount models=~/.capakit/models",
-      "skillInstallCommand": "capakit run 'git@github.com:capakit/llama-cpp-local-kit.git' --global-skill codex \\\n--mount models=~/.capakit/models"
+      "runCommand": "capakit run https://github.com/capakit/llama-cpp-local-kit \\\n--mount models=~/.capakit/models",
+      "skillInstallCommand": "capakit run https://github.com/capakit/llama-cpp-local-kit --global-skill codex \\\n--mount models=~/.capakit/models"
     },
     {
       "name": "local-image-tagger",
@@ -96,8 +96,8 @@
       ],
       "order": 40,
       "featured": true,
-      "runCommand": "capakit run 'git@github.com:capakit/local-image-tagger-demo-kit.git' \\\n--mount images=<path-to-images> \\\n--mount models=~/.capakit/models",
-      "skillInstallCommand": "capakit run 'git@github.com:capakit/local-image-tagger-demo-kit.git' --global-skill codex \\\n--mount images=<path-to-images> \\\n--mount models=~/.capakit/models"
+      "runCommand": "capakit run https://github.com/capakit/local-image-tagger-demo-kit \\\n--mount images=<path-to-images> \\\n--mount models=~/.capakit/models",
+      "skillInstallCommand": "capakit run https://github.com/capakit/local-image-tagger-demo-kit --global-skill codex \\\n--mount images=<path-to-images> \\\n--mount models=~/.capakit/models"
     },
     {
       "name": "stable-diffusion-local",
@@ -120,7 +120,7 @@
       ],
       "order": 60,
       "featured": false,
-      "runCommand": "capakit run 'git@github.com:capakit/stable-diffusion-local-kit.git' \\\n--mount models=~/.capakit/models",
+      "runCommand": "capakit run https://github.com/capakit/stable-diffusion-local-kit \\\n--mount models=~/.capakit/models",
       "skillInstallCommand": null
     },
     {
@@ -148,7 +148,7 @@
       ],
       "order": 70,
       "featured": true,
-      "runCommand": "capakit run 'git@github.com:capakit/realtime-voice-demo-kit.git' \\\n--mount models=~/.capakit/models",
+      "runCommand": "capakit run https://github.com/capakit/realtime-voice-demo-kit \\\n--mount models=~/.capakit/models",
       "skillInstallCommand": null
     }
   ]

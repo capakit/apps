@@ -10,12 +10,12 @@ Minimal AI app Kit that exposes a single MCP tool returning hello world.
 - Run:
 
 ```sh
-capakit run 'git@github.com:capakit/hello-world-demo-kit.git'
+capakit run https://github.com/capakit/hello-world-demo-kit
 ```
 - Skill:
 
 ```sh
-capakit run 'git@github.com:capakit/hello-world-demo-kit.git' --global-skill codex
+capakit run https://github.com/capakit/hello-world-demo-kit --global-skill codex
 ```
 
 
@@ -27,7 +27,7 @@ Local-first AI app Kit for generating and editing a simple illustrated children'
 - Run:
 
 ```sh
-capakit run 'git@github.com:capakit/kids-storybook-creator-demo-kit.git' \
+capakit run https://github.com/capakit/kids-storybook-creator-demo-kit \
 --mount models=~/.capakit/models
 ```
 
@@ -40,13 +40,13 @@ Local AI app Kit that serves GGUF models through llama.cpp with OpenAI-compatibl
 - Run:
 
 ```sh
-capakit run 'git@github.com:capakit/llama-cpp-local-kit.git' \
+capakit run https://github.com/capakit/llama-cpp-local-kit \
 --mount models=~/.capakit/models
 ```
 - Skill:
 
 ```sh
-capakit run 'git@github.com:capakit/llama-cpp-local-kit.git' --global-skill codex \
+capakit run https://github.com/capakit/llama-cpp-local-kit --global-skill codex \
 --mount models=~/.capakit/models
 ```
 
@@ -59,14 +59,14 @@ Local AI app Kit for tagging images from a mounted folder with a local vision mo
 - Run:
 
 ```sh
-capakit run 'git@github.com:capakit/local-image-tagger-demo-kit.git' \
+capakit run https://github.com/capakit/local-image-tagger-demo-kit \
 --mount images=<path-to-images> \
 --mount models=~/.capakit/models
 ```
 - Skill:
 
 ```sh
-capakit run 'git@github.com:capakit/local-image-tagger-demo-kit.git' --global-skill codex \
+capakit run https://github.com/capakit/local-image-tagger-demo-kit --global-skill codex \
 --mount images=<path-to-images> \
 --mount models=~/.capakit/models
 ```
@@ -80,7 +80,7 @@ Local AI app Kit that serves stable-diffusion.cpp through an OpenAI-compatible i
 - Run:
 
 ```sh
-capakit run 'git@github.com:capakit/stable-diffusion-local-kit.git' \
+capakit run https://github.com/capakit/stable-diffusion-local-kit \
 --mount models=~/.capakit/models
 ```
 
@@ -93,7 +93,7 @@ Local-first AI app Kit for a browser voice conversation loop with speech recogni
 - Run:
 
 ```sh
-capakit run 'git@github.com:capakit/realtime-voice-demo-kit.git' \
+capakit run https://github.com/capakit/realtime-voice-demo-kit \
 --mount models=~/.capakit/models
 ```
 
