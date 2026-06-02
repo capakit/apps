@@ -1,5 +1,59 @@
 {
   "schema": 1,
+  "tagOntology": [
+    {
+      "group": "Interfaces",
+      "description": "How users and agents interact with the app.",
+      "tags": [
+        "web-ui",
+        "mcp",
+        "oaic"
+      ]
+    },
+    {
+      "group": "Model runtimes",
+      "description": "Local model runtimes or model-serving stacks.",
+      "tags": [
+        "llama.cpp",
+        "stable-diffusion",
+        "transformers.js"
+      ]
+    },
+    {
+      "group": "Model formats",
+      "description": "Model packaging or artifact formats users may care about.",
+      "tags": [
+        "gguf"
+      ]
+    },
+    {
+      "group": "Capabilities",
+      "description": "User-visible AI jobs the app can perform.",
+      "tags": [
+        "audio",
+        "image-generation",
+        "image-tagging",
+        "speech-to-text",
+        "text-to-speech",
+        "vision",
+        "voice"
+      ]
+    },
+    {
+      "group": "Implementation",
+      "description": "Useful implementation and development stack filters.",
+      "tags": [
+        "bun",
+        "kokoro",
+        "local-ai",
+        "react",
+        "starter",
+        "typescript",
+        "vite",
+        "whisper"
+      ]
+    }
+  ],
   "apps": [
     {
       "name": "hello-world",
@@ -15,7 +69,9 @@
       ],
       "tags": [
         "mcp",
-        "starter"
+        "starter",
+        "typescript",
+        "bun"
       ],
       "order": 10,
       "featured": false,
@@ -28,7 +84,7 @@
       "description": "Local-first AI app Kit for generating and editing a simple illustrated children's storybook.",
       "repo": "https://github.com/capakit/kids-storybook-creator-demo-kit",
       "directory": "kids-storybook-creator-demo-kit",
-      "screenshot": "screenshot.png",
+      "screenshot": "assets/screenshots/kids-storybook-creator-demo-kit/screenshot.png",
       "technologies": [
         "CapaKit HTTP workload",
         "Bundled llama.cpp AI app Kit dependency",
@@ -40,8 +96,14 @@
       ],
       "tags": [
         "web-ui",
-        "local-llm",
-        "image-generation"
+        "llama.cpp",
+        "stable-diffusion",
+        "image-generation",
+        "local-ai",
+        "react",
+        "vite",
+        "typescript",
+        "bun"
       ],
       "order": 20,
       "featured": true,
@@ -64,9 +126,13 @@
         "Bun"
       ],
       "tags": [
-        "local-llm",
+        "llama.cpp",
+        "gguf",
         "oaic",
-        "mcp"
+        "mcp",
+        "local-ai",
+        "typescript",
+        "bun"
       ],
       "order": 30,
       "featured": false,
@@ -79,7 +145,7 @@
       "description": "Local AI app Kit for tagging images from a mounted folder with a local vision model.",
       "repo": "https://github.com/capakit/local-image-tagger-demo-kit",
       "directory": "local-image-tagger-demo-kit",
-      "screenshot": "screenshot.png",
+      "screenshot": "assets/screenshots/local-image-tagger-demo-kit/screenshot.png",
       "technologies": [
         "CapaKit MCP endpoint",
         "CapaKit HTTP workload",
@@ -91,8 +157,15 @@
       ],
       "tags": [
         "web-ui",
-        "local-vision",
-        "mcp"
+        "vision",
+        "image-tagging",
+        "llama.cpp",
+        "mcp",
+        "local-ai",
+        "react",
+        "vite",
+        "typescript",
+        "bun"
       ],
       "order": 40,
       "featured": true,
@@ -114,9 +187,12 @@
         "Bun"
       ],
       "tags": [
+        "stable-diffusion",
         "image-generation",
         "oaic",
-        "local-model"
+        "local-ai",
+        "typescript",
+        "bun"
       ],
       "order": 60,
       "featured": false,
@@ -129,7 +205,7 @@
       "description": "Local-first AI app Kit for a browser voice conversation loop with speech recognition, local chat, and speech output.",
       "repo": "https://github.com/capakit/realtime-voice-demo-kit",
       "directory": "realtime-voice-demo-kit",
-      "screenshot": "screenshot.png",
+      "screenshot": "assets/screenshots/realtime-voice-demo-kit/screenshot.png",
       "technologies": [
         "CapaKit HTTP workload",
         "WebSocket browser audio",
@@ -144,7 +220,18 @@
       "tags": [
         "web-ui",
         "voice",
-        "local-llm"
+        "audio",
+        "speech-to-text",
+        "text-to-speech",
+        "llama.cpp",
+        "transformers.js",
+        "whisper",
+        "kokoro",
+        "local-ai",
+        "react",
+        "vite",
+        "typescript",
+        "bun"
       ],
       "order": 70,
       "featured": true,
