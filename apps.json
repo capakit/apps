@@ -1,0 +1,155 @@
+{
+  "schema": 1,
+  "apps": [
+    {
+      "name": "hello-world",
+      "displayName": "Hello World",
+      "description": "Minimal AI app Kit that exposes a single MCP tool returning hello world.",
+      "repo": "https://github.com/capakit/hello-world-demo-kit",
+      "directory": "hello-world-demo-kit",
+      "screenshot": null,
+      "technologies": [
+        "CapaKit MCP endpoint",
+        "TypeScript",
+        "Bun"
+      ],
+      "tags": [
+        "mcp",
+        "starter"
+      ],
+      "order": 10,
+      "featured": false,
+      "runCommand": "capakit run 'git@github.com:capakit/hello-world-demo-kit.git'",
+      "skillInstallCommand": "capakit run 'git@github.com:capakit/hello-world-demo-kit.git' --global-skill codex"
+    },
+    {
+      "name": "kids-storybook-creator",
+      "displayName": "Kids Storybook Creator",
+      "description": "Local-first AI app Kit for generating and editing a simple illustrated children's storybook.",
+      "repo": "https://github.com/capakit/kids-storybook-creator-demo-kit",
+      "directory": "kids-storybook-creator-demo-kit",
+      "screenshot": "screenshot.png",
+      "technologies": [
+        "CapaKit HTTP workload",
+        "Bundled llama.cpp AI app Kit dependency",
+        "Bundled stable-diffusion.cpp AI app Kit dependency",
+        "React",
+        "Vite",
+        "TypeScript",
+        "Bun"
+      ],
+      "tags": [
+        "web-ui",
+        "local-llm",
+        "image-generation"
+      ],
+      "order": 20,
+      "featured": true,
+      "runCommand": "capakit run 'git@github.com:capakit/kids-storybook-creator-demo-kit.git' \\\n--mount models=~/.capakit/models",
+      "skillInstallCommand": null
+    },
+    {
+      "name": "llama-cpp-local",
+      "displayName": "llama.cpp Local",
+      "description": "Local AI app Kit that serves GGUF models through llama.cpp with OpenAI-compatible and MCP endpoints.",
+      "repo": "https://github.com/capakit/llama-cpp-local-kit",
+      "directory": "llama-cpp-local-kit",
+      "screenshot": null,
+      "technologies": [
+        "llama.cpp",
+        "GGUF models",
+        "CapaKit OAIC endpoint",
+        "CapaKit MCP endpoint",
+        "TypeScript",
+        "Bun"
+      ],
+      "tags": [
+        "local-llm",
+        "oaic",
+        "mcp"
+      ],
+      "order": 30,
+      "featured": false,
+      "runCommand": "capakit run 'git@github.com:capakit/llama-cpp-local-kit.git' \\\n--mount models=~/.capakit/models",
+      "skillInstallCommand": "capakit run 'git@github.com:capakit/llama-cpp-local-kit.git' --global-skill codex \\\n--mount models=~/.capakit/models"
+    },
+    {
+      "name": "local-image-tagger",
+      "displayName": "Local Image Tagger",
+      "description": "Local AI app Kit for tagging images from a mounted folder with a local vision model.",
+      "repo": "https://github.com/capakit/local-image-tagger-demo-kit",
+      "directory": "local-image-tagger-demo-kit",
+      "screenshot": "screenshot.png",
+      "technologies": [
+        "CapaKit MCP endpoint",
+        "CapaKit HTTP workload",
+        "Bundled llama.cpp AI app Kit dependency",
+        "React",
+        "Vite",
+        "TypeScript",
+        "Bun"
+      ],
+      "tags": [
+        "web-ui",
+        "local-vision",
+        "mcp"
+      ],
+      "order": 40,
+      "featured": true,
+      "runCommand": "capakit run 'git@github.com:capakit/local-image-tagger-demo-kit.git' \\\n--mount images=<path-to-images> \\\n--mount models=~/.capakit/models",
+      "skillInstallCommand": "capakit run 'git@github.com:capakit/local-image-tagger-demo-kit.git' --global-skill codex \\\n--mount images=<path-to-images> \\\n--mount models=~/.capakit/models"
+    },
+    {
+      "name": "stable-diffusion-local",
+      "displayName": "Stable Diffusion Local",
+      "description": "Local AI app Kit that serves stable-diffusion.cpp through an OpenAI-compatible image endpoint.",
+      "repo": "https://github.com/capakit/stable-diffusion-local-kit",
+      "directory": "stable-diffusion-local-kit",
+      "screenshot": null,
+      "technologies": [
+        "stable-diffusion.cpp",
+        "GGUF diffusion models",
+        "CapaKit OAIC endpoint",
+        "TypeScript",
+        "Bun"
+      ],
+      "tags": [
+        "image-generation",
+        "oaic",
+        "local-model"
+      ],
+      "order": 60,
+      "featured": false,
+      "runCommand": "capakit run 'git@github.com:capakit/stable-diffusion-local-kit.git' \\\n--mount models=~/.capakit/models",
+      "skillInstallCommand": null
+    },
+    {
+      "name": "realtime-voice",
+      "displayName": "Realtime Voice",
+      "description": "Local-first AI app Kit for a browser voice conversation loop with speech recognition, local chat, and speech output.",
+      "repo": "https://github.com/capakit/realtime-voice-demo-kit",
+      "directory": "realtime-voice-demo-kit",
+      "screenshot": "screenshot.png",
+      "technologies": [
+        "CapaKit HTTP workload",
+        "WebSocket browser audio",
+        "Bundled llama.cpp AI app Kit dependency",
+        "Transformers.js Whisper ASR",
+        "Kokoro TTS",
+        "React",
+        "Vite",
+        "TypeScript",
+        "Bun"
+      ],
+      "tags": [
+        "web-ui",
+        "voice",
+        "local-llm"
+      ],
+      "order": 70,
+      "featured": true,
+      "runCommand": "capakit run 'git@github.com:capakit/realtime-voice-demo-kit.git' \\\n--mount models=~/.capakit/models",
+      "skillInstallCommand": null
+    }
+  ]
+}
