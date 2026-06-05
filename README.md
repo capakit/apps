@@ -14,18 +14,6 @@ This repository is the public registry for CapaKit AI app Kits. Each app is a st
 
 Local-first AI app Kit for generating and editing a simple illustrated children's storybook.
 
-**Technologies**
-
-- web-ui
-- llama.cpp
-- stable-diffusion
-- image-generation
-- local-ai
-- react
-- vite
-- typescript
-- bun
-
 <details>
 <summary>Run and details</summary>
 
@@ -65,19 +53,6 @@ capakit run https://github.com/capakit/kids-storybook-creator-demo-kit \
 <img src="assets/screenshots/local-image-tagger-demo-kit/screenshot.png" alt="Local Image Tagger screenshot" width="780">
 
 Local AI app Kit for tagging images from a mounted folder with a local vision model.
-
-**Technologies**
-
-- web-ui
-- vision
-- image-tagging
-- llama.cpp
-- mcp
-- local-ai
-- react
-- vite
-- typescript
-- bun
 
 <details>
 <summary>Run and details</summary>
@@ -128,24 +103,6 @@ capakit run https://github.com/capakit/local-image-tagger-demo-kit --global-skil
 <img src="assets/screenshots/realtime-voice-demo-kit/screenshot.png" alt="Realtime Voice screenshot" width="780">
 
 CapaKit AI app Kit for a browser voice conversation loop with speech recognition, local chat, and speech output.
-
-**Technologies**
-
-- web-ui
-- websocket
-- voice
-- audio
-- speech-to-text
-- text-to-speech
-- llama.cpp
-- transformers.js
-- whisper
-- kokoro
-- local-ai
-- react
-- vite
-- typescript
-- bun
 
 <details>
 <summary>Run and details</summary>
