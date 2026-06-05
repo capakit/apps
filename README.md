@@ -14,7 +14,17 @@ This repository is the public registry for CapaKit AI app Kits. Each app is a st
 
 Local-first AI app Kit for generating and editing a simple illustrated children's storybook.
 
-`web-ui` `llama.cpp` `stable-diffusion` `image-generation` `local-ai` `react` `vite` `typescript` `bun`
+**Technologies**
+
+- web-ui
+- llama.cpp
+- stable-diffusion
+- image-generation
+- local-ai
+- react
+- vite
+- typescript
+- bun
 
 <details>
 <summary>Run and details</summary>
@@ -27,7 +37,17 @@ Local-first AI app Kit for generating and editing a simple illustrated children'
 - Uses a local language model for story text and a local image model for page art.
 - Serves a browser UI for editing pages and printing the final storybook.
 
-**Tags:** `web-ui` `llama.cpp` `stable-diffusion` `image-generation` `local-ai` `react` `vite` `typescript` `bun`
+**Technologies**
+
+- web-ui
+- llama.cpp
+- stable-diffusion
+- image-generation
+- local-ai
+- react
+- vite
+- typescript
+- bun
 
 **Run**
 
@@ -46,7 +66,18 @@ capakit run https://github.com/capakit/kids-storybook-creator-demo-kit \
 
 Local AI app Kit for tagging images from a mounted folder with a local vision model.
 
-`web-ui` `vision` `image-tagging` `llama.cpp` `mcp` `local-ai` `react` `vite` `typescript` `bun`
+**Technologies**
+
+- web-ui
+- vision
+- image-tagging
+- llama.cpp
+- mcp
+- local-ai
+- react
+- vite
+- typescript
+- bun
 
 <details>
 <summary>Run and details</summary>
@@ -59,7 +90,18 @@ Local AI app Kit for tagging images from a mounted folder with a local vision mo
 - Tags selected images with a bundled local vision model dependency.
 - Exposes both a browser UI and an MCP image-tagging tool.
 
-**Tags:** `web-ui` `vision` `image-tagging` `llama.cpp` `mcp` `local-ai` `react` `vite` `typescript` `bun`
+**Technologies**
+
+- web-ui
+- vision
+- image-tagging
+- llama.cpp
+- mcp
+- local-ai
+- react
+- vite
+- typescript
+- bun
 
 **Run**
 
@@ -85,9 +127,25 @@ capakit run https://github.com/capakit/local-image-tagger-demo-kit --global-skil
 
 <img src="assets/screenshots/realtime-voice-demo-kit/screenshot.png" alt="Realtime Voice screenshot" width="780">
 
-Local-first AI app Kit for a browser voice conversation loop with speech recognition, local chat, and speech output.
+CapaKit AI app Kit for a browser voice conversation loop with speech recognition, local chat, and speech output.
 
-`web-ui` `websocket` `voice` `audio` `speech-to-text` `text-to-speech` `llama.cpp` `transformers.js` `whisper` `kokoro` `local-ai` `react` `vite` `typescript` `bun`
+**Technologies**
+
+- web-ui
+- websocket
+- voice
+- audio
+- speech-to-text
+- text-to-speech
+- llama.cpp
+- transformers.js
+- whisper
+- kokoro
+- local-ai
+- react
+- vite
+- typescript
+- bun
 
 <details>
 <summary>Run and details</summary>
@@ -101,7 +159,23 @@ Local-first AI app Kit for a browser voice conversation loop with speech recogni
 - Generates assistant replies through a bundled local llama.cpp dependency.
 - Speaks replies with a local Kokoro TTS model.
 
-**Tags:** `web-ui` `websocket` `voice` `audio` `speech-to-text` `text-to-speech` `llama.cpp` `transformers.js` `whisper` `kokoro` `local-ai` `react` `vite` `typescript` `bun`
+**Technologies**
+
+- web-ui
+- websocket
+- voice
+- audio
+- speech-to-text
+- text-to-speech
+- llama.cpp
+- transformers.js
+- whisper
+- kokoro
+- local-ai
+- react
+- vite
+- typescript
+- bun
 
 **Run**
 
@@ -126,7 +200,12 @@ Expand an app for the exact command, longer description, and source repository.
 - Starts one Bun workload with an MCP endpoint.
 - Provides a tiny tool that is useful for validating CapaKit installation and skill wiring.
 
-**Tags:** `mcp` `starter` `typescript` `bun`
+**Technologies**
+
+- mcp
+- starter
+- typescript
+- bun
 
 **Run**
 
@@ -155,7 +234,17 @@ capakit run https://github.com/capakit/hello-world-demo-kit --global-skill codex
 - Uses a local language model for story text and a local image model for page art.
 - Serves a browser UI for editing pages and printing the final storybook.
 
-**Tags:** `web-ui` `llama.cpp` `stable-diffusion` `image-generation` `local-ai` `react` `vite` `typescript` `bun`
+**Technologies**
+
+- web-ui
+- llama.cpp
+- stable-diffusion
+- image-generation
+- local-ai
+- react
+- vite
+- typescript
+- bun
 
 **Run**
 
@@ -177,7 +266,15 @@ capakit run https://github.com/capakit/kids-storybook-creator-demo-kit \
 - Loads a local path or Hugging Face GGUF model spec.
 - Exposes OpenAI-compatible chat and an MCP tool for local model prompts.
 
-**Tags:** `llama.cpp` `gguf` `oaic` `mcp` `local-ai` `typescript` `bun`
+**Technologies**
+
+- llama.cpp
+- gguf
+- oaic
+- mcp
+- local-ai
+- typescript
+- bun
 
 **Run**
 
@@ -208,7 +305,18 @@ capakit run https://github.com/capakit/llama-cpp-local-kit --global-skill codex 
 - Tags selected images with a bundled local vision model dependency.
 - Exposes both a browser UI and an MCP image-tagging tool.
 
-**Tags:** `web-ui` `vision` `image-tagging` `llama.cpp` `mcp` `local-ai` `react` `vite` `typescript` `bun`
+**Technologies**
+
+- web-ui
+- vision
+- image-tagging
+- llama.cpp
+- mcp
+- local-ai
+- react
+- vite
+- typescript
+- bun
 
 **Run**
 
@@ -239,7 +347,14 @@ capakit run https://github.com/capakit/local-image-tagger-demo-kit --global-skil
 - Loads a local path or Hugging Face diffusion model spec.
 - Exposes an OpenAI-compatible image-generation API for other Kits.
 
-**Tags:** `stable-diffusion` `image-generation` `oaic` `local-ai` `typescript` `bun`
+**Technologies**
+
+- stable-diffusion
+- image-generation
+- oaic
+- local-ai
+- typescript
+- bun
 
 **Run**
 
@@ -253,7 +368,7 @@ capakit run https://github.com/capakit/stable-diffusion-local-kit \
 </details>
 
 <details>
-<summary><strong>Realtime Voice</strong> - Local-first AI app Kit for a browser voice conversation loop with speech recognition, local chat, and speech output.</summary>
+<summary><strong>Realtime Voice</strong> - CapaKit AI app Kit for a browser voice conversation loop with speech recognition, local chat, and speech output.</summary>
 
 <p><img src="assets/screenshots/realtime-voice-demo-kit/screenshot.png" alt="Realtime Voice screenshot" width="640"></p>
 
@@ -264,7 +379,23 @@ capakit run https://github.com/capakit/stable-diffusion-local-kit \
 - Generates assistant replies through a bundled local llama.cpp dependency.
 - Speaks replies with a local Kokoro TTS model.
 
-**Tags:** `web-ui` `websocket` `voice` `audio` `speech-to-text` `text-to-speech` `llama.cpp` `transformers.js` `whisper` `kokoro` `local-ai` `react` `vite` `typescript` `bun`
+**Technologies**
+
+- web-ui
+- websocket
+- voice
+- audio
+- speech-to-text
+- text-to-speech
+- llama.cpp
+- transformers.js
+- whisper
+- kokoro
+- local-ai
+- react
+- vite
+- typescript
+- bun
 
 **Run**
 

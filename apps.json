@@ -68,9 +68,10 @@
       "directory": "hello-world-demo-kit",
       "screenshot": null,
       "technologies": [
-        "CapaKit MCP endpoint",
-        "TypeScript",
-        "Bun"
+        "mcp",
+        "starter",
+        "typescript",
+        "bun"
       ],
       "tags": [
         "mcp",
@@ -96,13 +97,15 @@
       "directory": "kids-storybook-creator-demo-kit",
       "screenshot": "assets/screenshots/kids-storybook-creator-demo-kit/screenshot.png",
       "technologies": [
-        "CapaKit HTTP workload",
-        "Bundled llama.cpp AI app Kit dependency",
-        "Bundled stable-diffusion.cpp AI app Kit dependency",
-        "React",
-        "Vite",
-        "TypeScript",
-        "Bun"
+        "web-ui",
+        "llama.cpp",
+        "stable-diffusion",
+        "image-generation",
+        "local-ai",
+        "react",
+        "vite",
+        "typescript",
+        "bun"
       ],
       "tags": [
         "web-ui",
@@ -134,11 +137,12 @@
       "screenshot": null,
       "technologies": [
         "llama.cpp",
-        "GGUF models",
-        "CapaKit OAIC endpoint",
-        "CapaKit MCP endpoint",
-        "TypeScript",
-        "Bun"
+        "gguf",
+        "oaic",
+        "mcp",
+        "local-ai",
+        "typescript",
+        "bun"
       ],
       "tags": [
         "llama.cpp",
@@ -167,13 +171,16 @@
       "directory": "local-image-tagger-demo-kit",
       "screenshot": "assets/screenshots/local-image-tagger-demo-kit/screenshot.png",
       "technologies": [
-        "CapaKit MCP endpoint",
-        "CapaKit HTTP workload",
-        "Bundled llama.cpp AI app Kit dependency",
-        "React",
-        "Vite",
-        "TypeScript",
-        "Bun"
+        "web-ui",
+        "vision",
+        "image-tagging",
+        "llama.cpp",
+        "mcp",
+        "local-ai",
+        "react",
+        "vite",
+        "typescript",
+        "bun"
       ],
       "tags": [
         "web-ui",
@@ -205,11 +212,12 @@
       "directory": "stable-diffusion-local-kit",
       "screenshot": null,
       "technologies": [
-        "stable-diffusion.cpp",
-        "GGUF diffusion models",
-        "CapaKit OAIC endpoint",
-        "TypeScript",
-        "Bun"
+        "stable-diffusion",
+        "image-generation",
+        "oaic",
+        "local-ai",
+        "typescript",
+        "bun"
       ],
       "tags": [
         "stable-diffusion",
@@ -227,7 +235,7 @@
     {
       "name": "realtime-voice",
       "displayName": "Realtime Voice",
-      "description": "Local-first AI app Kit for a browser voice conversation loop with speech recognition, local chat, and speech output.",
+      "description": "CapaKit AI app Kit for a browser voice conversation loop with speech recognition, local chat, and speech output.",
       "whatItDoes": [
         "Streams microphone audio from the browser to a CapaKit workload.",
         "Transcribes speech with a local Whisper model.",
@@ -238,15 +246,21 @@
       "directory": "realtime-voice-demo-kit",
       "screenshot": "assets/screenshots/realtime-voice-demo-kit/screenshot.png",
       "technologies": [
-        "CapaKit HTTP workload",
-        "WebSocket browser audio",
-        "Bundled llama.cpp AI app Kit dependency",
-        "Transformers.js Whisper ASR",
-        "Kokoro TTS",
-        "React",
-        "Vite",
-        "TypeScript",
-        "Bun"
+        "web-ui",
+        "websocket",
+        "voice",
+        "audio",
+        "speech-to-text",
+        "text-to-speech",
+        "llama.cpp",
+        "transformers.js",
+        "whisper",
+        "kokoro",
+        "local-ai",
+        "react",
+        "vite",
+        "typescript",
+        "bun"
       ],
       "tags": [
         "web-ui",
